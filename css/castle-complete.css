@@ -1,0 +1,228 @@
+#castle-complete .head
+{
+    background: url("../images/popup/shop_ribbon-nodiamonds.png") no-repeat;
+    background-size: 100%;
+    height: 39px;
+    left: -23px;
+    margin: 7px auto 5px;
+    position: relative;
+    width: 228px;
+}
+#castle-complete div.head h1
+{
+    font: 20px/38px 'Bubblegum Sans',sans-serif;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 105px;
+}
+#castle-complete div.items
+{
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    right: 0;
+    top: 10px;
+}
+#castle-complete hr
+{
+    bottom: 70px;
+    display: none;
+    position: absolute;
+}
+#castle-complete .description .embossed
+{
+    padding-bottom: 20px;
+}
+#castle-complete .description
+{
+    position: relative;
+    text-align: center;
+    z-index: 12000;
+}
+#castle-complete .description button
+{
+    margin: -15px auto 0;
+}
+#castle-complete div.items .requiredItems li
+{
+    height: 80px;
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+#castle-complete .specification
+{
+    padding: 8px 10px 10px 70px;
+}
+#castle-complete div.items .requiredItems li .invited
+{
+    background: url(../images/popup/tick.png) no-repeat center;
+    display: block;
+    height: 45px;
+    margin-top: -12px;
+    text-indent: -10000;
+}
+#castle-complete .image
+{
+    background: #76cffa url(../images/popup/unknown.png) no-repeat center;
+    background-size: 100%;
+    border: 2px solid #85511e;
+    border-radius: 6px;
+    float: left;
+    height: 50px;
+    margin: 8px;
+    margin-right: 10px;
+    position: relative;
+    width: 50px;
+}
+#castle-complete .specialistImg
+{
+    float: left;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: -3px;
+    position: relative;
+    width: 50px;
+}
+#castle-complete img
+{
+    height: 100%;
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+}
+#castle-complete h6
+{
+    color: #6e1700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+#castle-complete .specification
+{
+    text-align: center;
+}
+#castle-complete button.purchaseItem
+{
+    display: inline-block!important;
+    font-family: 'Bubblegum Sans',sans-serif;
+    margin: -25px 10px 0 10px;
+}
+li.unaffordable .purchaseItem
+{
+    background-color: brown;
+    border-color: brown;
+    display: inline-block!important;
+    margin: -25px 10px 0 10px;
+}
+#castle-complete .checkout
+{
+    position: static;
+    text-align: center;
+}
+@media all and (-webkit-min-device-pixel-ratio:2)
+{
+    #castle-complete .head
+    {
+        background: url("../images/popup/shop_ribbon-nodiamonds.png") no-repeat;
+        height: 76px;
+        left: -46px;
+        margin: 14px auto 10px;
+        width: 456px;
+    }
+    #castle-complete div.head h1
+    {
+        font: 40px/76px 'Bubblegum Sans',sans-serif,sans-serif;
+        right: 0;
+        width: 210px;
+    }
+    #castle-complete div.head div.diamonds
+    {
+        display: none;
+    }
+    #castle-complete .description .embossed
+    {
+        padding-bottom: 40px;
+    }
+    #castle-complete .description button
+    {
+        margin: -30px auto 0;
+    }
+    #castle-complete div.items
+    {
+        bottom: 0;
+        padding: 20px 0;
+        top: 20px;
+    }
+    #castle-complete hr
+    {
+        bottom: 140px;
+    }
+    #castle-complete div.items .requiredItems
+    {
+        border-radius: 12px;
+        border-width: 6px;
+        padding-bottom: 12px;
+    }
+    #castle-complete div.items .requiredItems li
+    {
+        height: 160px;
+        margin: 12px 20px 0 20px;
+    }
+    #castle-complete div.items .requiredItems li:last-child
+    {
+        margin-bottom: 40px;
+    }
+    #castle-complete div.items .requiredItems li .invited
+    {
+        background: url(../images/popup/tick.png) no-repeat center;
+        height: 90px;
+        margin-top: -24px;
+        position: relative;
+        z-index: 10000;
+    }
+    #castle-complete .image
+    {
+        background-image: url(../images/popup/unknown.png);
+        background-size: 100%;
+        border-radius: 12px;
+        border-width: 4px;
+        height: 100px;
+        margin: 16px 40px 16px 16px;
+        width: 100px;
+    }
+    #castle-complete .specialistImg
+    {
+        height: 70px;
+        margin-left: 0;
+        margin-top: -6px;
+        width: 99px;
+    }
+    #castle-complete img
+    {
+        visibility: hidden;
+    }
+    #castle-complete .specification
+    {
+        padding: 16px 20px 20px 140px;
+    }
+    #castle-complete h6
+    {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 0 20px 0;
+    }
+    #castle-complete button.purchaseItem
+    {
+        margin: -50px 20px 0 20px;
+    }
+}
